@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relógio Digital</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="IMG/relógio.ico" type="image/x-icon">
+</head>
+<header>
+</header>
+<br>
+<body>
+  <div class="clock-container">
+    <div class="clock" id="main-clock"></div>
+    <div class="date" id="date"></div>
+    <div class="secondary-clocks">
+      <div class="secondary-clock" data-timezone="America/Sao_Paulo" id="brasilia-clock">
+        <span class="city-name">Brasília/BR</span>
+        <div class="clock-time" id="clock1"></div>
+      </div>
+      <div class="secondary-clock" data-timezone="America/New_York" id="newyork-clock">
+        <span class="city-name">Nova York/US</span>
+        <div class="clock-time" id="clock2"></div>
+      </div>
+      <div class="secondary-clock" data-timezone="Asia/Tokyo" id="tokyo-clock">
+        <span class="city-name">Tóquio/JP</span>
+        <div class="clock-time" id="clock3"></div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h3>&copy;ANDERSON COSTA</h3>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
